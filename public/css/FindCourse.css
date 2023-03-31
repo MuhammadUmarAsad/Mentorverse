@@ -1,0 +1,57 @@
+.CourseLevel {
+    text-align: center;
+    color: #095256;
+    margin-top: 1rem;
+}
+
+.CourseBorder {
+    border: 3px solid rgba(96, 81, 81, 0.105);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    margin-right: 1rem;
+    margin-top: 2rem;
+    border-radius: 15px;
+}
+
+.FC_TtrImg {
+    width: 50%;
+    height: auto;
+    border-radius: 50%;
+}
+
+h4 {
+    color: #263840;
+}
+
+.courseImg1 {
+    width: auto;
+    height: 12em;
+}
+
+.TutorNames {
+    /* margin-top: 1.5rem; */
+    margin-left: -2.5rem;
+    margin-bottom: 0rem;
+}
+.click {
+    transition: 500ms;
+    text-decoration: none;
+}
+.click:hover h4 {
+    color: #095256;
+    transition: 500ms;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 768px) {
+    #RSmall {
+        display: none;
+    }
+    #SearchImgSmall {
+        width: 6vw;
+        height: 6vh;
+    }
+    #RHeadSmall {
+        padding-top: 2rem;
+    }
+}

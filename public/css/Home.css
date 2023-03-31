@@ -1,0 +1,288 @@
+/*  > 1400  */
+.TopSection {
+    margin: 0;
+    padding-top: 0.9rem;
+}
+#TopLabel {
+    padding-top: 0.9rem;
+    margin-bottom: -0.5rem;
+}
+
+#hero_section {
+    background-color: #8af3ff;
+    padding-top: 50px;
+}
+
+#hero_img {
+    text-align: end;
+}
+#hero_img img {
+    width: 100%;
+    height: auto;
+}
+
+.st-enrolled {
+    padding: 2em 0em;
+}
+.st-enrolled span {
+    margin-right: 1.5rem;
+}
+#value {
+    margin-right: 0rem;
+}
+.st-enrolled img {
+    width: 9%;
+    height: 9%;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 2px solid white;
+    margin-left: -1rem;
+}
+
+.Category-Section {
+    padding-top: 4em;
+}
+.category_card {
+    margin-top: 2em;
+    border: none;
+    border-radius: 15px;
+    background-color: #095256;
+}
+.category_card img {
+    padding: 2em;
+    height: 10em;
+    width: auto;
+}
+.category_card p.label {
+    text-align: end;
+    padding-top: 2rem;
+}
+
+#Tutor-arrow {
+    text-align: center;
+    opacity: 0.7;
+}
+.Tutor-Section {
+    padding-top: 7em;
+}
+.Works-Section {
+    padding-top: 4em;
+}
+.work-card,
+.Testimonial-cards {
+    padding-top: 2.5em;
+}
+.Testimonials-Section {
+    padding-top: 7em;
+}
+.Blog-Section {
+    padding-top: 7em;
+}
+
+#offer img {
+    margin-right: 1rem;
+    width: 15%;
+}
+#offer span {
+    font-size: 1.25rem;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #1b1c1e;
+}
+
+.end {
+    float: right;
+}
+
+.TextCenter {
+    text-align: center;
+}
+
+.neumorphism {
+    padding: 1rem;
+    /* border-radius: 20px;
+    background: #ffffff;
+    box-shadow: 5px 5px 48px #cccccc, -5px -5px 48px #ffffff; */
+}
+
+.neumorphism > * {
+    padding-bottom: 0.5rem;
+}
+
+.reviewCard {
+    border-radius: 10px;
+    border: 0.1px solid rgba(28, 74, 74, 0.2);
+}
+
+.FirstRC {
+    margin-right: 2rem;
+    padding-bottom: 1rem;
+}
+.secondRC {
+    margin: 0rem 2rem;
+    padding-bottom: 1rem;
+}
+.ThirdRC {
+    margin-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.quote {
+    width: 10%;
+    height: auto;
+}
+.dp {
+    width: 15%;
+    height: auto;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: -2rem;
+}
+
+.TextCenter a {
+    color: #9ec5c5;
+    transition: 1s;
+}
+
+.TextCenter a:hover {
+    color: #095256;
+    transition: 1s;
+}
+
+.blog {
+    padding: 0.8rem;
+}
+.blog > * {
+    margin-bottom: 0.5rem;
+}
+
+.vertical {
+    display: none;
+}
+
+.BT-md {
+    display: none;
+}
+/* .Become-Tutor{
+    background-image: url('/res/Home\ Bcome\ Tutor\ with\ text.svg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+} */
+
+/* Custom */
+@media (max-width: 1500px) {
+    #Tutor-arrow {
+        display: none;
+    }
+
+    .vertical {
+        display: block;
+        padding-bottom: 1em;
+    }
+}
+
+/* XXL */
+@media (max-width: 1399.98px) {
+    .dp {
+        width: 17%;
+    }
+    .Blog-Section {
+        padding-top: 5em;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .st-enrolled img {
+        width: 10%;
+        height: 10%;
+        margin-left: -0.7rem;
+    }
+    #search_category img {
+        height: auto;
+        width: 80%;
+    }
+    .BT {
+        display: none;
+    }
+    .BT-md {
+        display: block;
+        margin: auto;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .st-enrolled img {
+        width: 11%;
+        height: 11%;
+        margin-left: -0.7rem;
+    }
+    .work-arr {
+        display: none;
+    }
+    .neumorphism {
+        margin: 0rem 1rem;
+    }
+    .star {
+        padding-bottom: 0.5em;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .st-enrolled img {
+        width: 9%;
+        height: 9%;
+        margin-left: -0.7rem;
+    }
+    #hero_img {
+        display: none;
+    }
+    .SC {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 0.5em;
+        text-align: center;
+    }
+    .cat_search {
+        display: none;
+    }
+    .category_card {
+        max-width: 60;
+        margin: 0.5em auto;
+    }
+    .BT-md {
+        margin-top: 1em;
+    }
+    .end {
+        margin-top: 1em;
+    }
+    .Category-Section {
+        padding-top: 2em;
+    }
+    .Tutor-Section {
+        padding-top: 5em;
+    }
+    .Works-Section {
+        padding-top: 5em;
+    }
+    .Testimonials-Section {
+        padding-top: 5em;
+    }
+    .Blog-Section {
+        padding-top: 5em;
+    }
+    .neumorphism {
+        margin: 0.3em 0em;
+    }
+    .reviewCard {
+        margin: 1em 0em;
+    }
+}
+
+@media (max-width: 568px) {
+    .st-enrolled img {
+        width: 13%;
+        height: 13%;
+    }
+}

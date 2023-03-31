@@ -1,0 +1,113 @@
+#QuoteImage {
+    width: 550px;
+    height: 514px;
+    position: relative;
+    text-align: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+}
+#QuoteImage h4 {
+    position: absolute;
+    padding: 0em 0.5em;
+    top: 50%;
+}
+
+.vid {
+    margin-top: -5%;
+    text-align: center;
+}
+
+.TextCenter {
+    text-align: center;
+}
+
+#owners h4 {
+    color: #f6a2bc;
+}
+.story p {
+    text-align: justify;
+}
+
+.reviewCard {
+    border-radius: 10px;
+    border: 0.1px solid rgba(28, 74, 74, 0.2);
+}
+
+.FirstRC {
+    margin-right: 1rem;
+}
+.secondRC {
+    margin: 0rem 1rem;
+}
+.ThirdRC {
+    margin-left: 1rem;
+}
+
+.f {
+    padding: 1rem;
+}
+
+.f > * {
+    margin-bottom: 0.5rem;
+}
+
+.f h4 {
+    color: #095256;
+}
+.f p {
+    text-align: justify;
+    color: #095256;
+}
+
+.reviewCard img {
+    width: 50px;
+    height: 50px;
+}
+
+.welcome {
+    padding-top: 3rem;
+}
+.story {
+    padding-top: 5rem;
+}
+.story img {
+    height: auto;
+    width: 70%;
+}
+.features {
+    padding-top: 5rem;
+}
+
+@media (max-width: 1399.98px) {
+    .vid img {
+        width: 100%;
+        height: auto;
+    }
+    #QuoteImage {
+        width: 100%;
+    }
+}
+
+@media (max-width: 992px) {
+    #owners {
+        margin-top: 5rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    #QuoteImage {
+        margin-top: 2em;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .reviewCard {
+        margin-bottom: 2rem;
+    }
+    .vid {
+        margin-top: 2%;
+    }
+    #owners {
+        display: none;
+    }
+}
